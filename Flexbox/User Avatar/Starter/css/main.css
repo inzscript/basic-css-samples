@@ -47,6 +47,10 @@ body {
     content: '';
     width: 2rem;
     height: 2rem;
-    background-color: #5DBC3C;
+    background-color: lightgray;
     border-radius: 50%;
+}
+
+.avatar .green {
+    background-color: #5DBC3C;
 }
