@@ -14,3 +14,60 @@ body {
     background-color: #D7DED3;
     font-family: 'Poppins';
 }
+
+section {
+    display: flex;
+    gap: 13.5em;
+    background-color: white;
+    padding: 7em;
+    width: 1200px;
+    border-radius: .8em;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: .6;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a.cta {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #406A29;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+a.cta p {
+    margin: 0;
+}
+
+.right-col {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 2.8em;
+}
+
+.box {
+    width: 30%;
+    aspect-ratio: 1/1;
+    gap: 1em;
+    border-radius: .6em;
+    background-color: gray;
+}
